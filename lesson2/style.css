@@ -1,0 +1,32 @@
+.calendar-table {
+    width: 100%;
+    max-width: 200px;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    margin: 20px auto;
+}
+
+.calendar-table caption {
+    font-size: 30px;
+    border: 1px solid rgb(14,7,36);
+}
+
+.calendar-table tr,
+.calendar-table th {
+    border: 1px solid rgb(14, 7, 36);
+    padding: 10px;
+    text-align: center;
+}
+
+.calendar-table  {
+    background-color: rgb(245, 245, 245);
+}
+
+.weekend-day {
+    color: red;
+}
+
+.empty  {
+    background-color: rgb(209, 212, 212);
+    border:none;
+}
