@@ -1,0 +1,60 @@
+.form-container {
+    max-width: 400px;
+    margin:20px auto;
+    padding: 20px;
+    border: 1px solid #121103;
+    border-radius: 15px;
+    background-color: #dd1d1d;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 3px solid #5413c4;
+    border-radius: 10px;
+}
+
+button {
+    background-color: rgb(237, 140, 218);
+    cursor: pointer;
+}
+
+button:active {
+    background-color: blueviolet;
+}
+
+textarea {
+    resize: vertical;
+    max-height: 200px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.checkbox-container:active {
+    background-color: chartreuse;
+}
+
+.checkbox-container label {
+    margin-top: 0;
+    font-weight: normal;
+}
